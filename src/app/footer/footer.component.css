@@ -1,0 +1,11 @@
+.footer {
+  z-index:1;
+    left: 0;
+    bottom: 4px;
+    width: 98.8%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 51px;
+    left: 8px;
+}

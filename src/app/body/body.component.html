@@ -1,0 +1,11 @@
+<div class="bodypart" >
+  <ul *ngFor="let student of people" style="display: inline-block">
+    
+      <li style="display: inline-block" ><span><a (click)="clickEvent();" routerLink="/routingdemo"><img src={{student.imgURL}} /></a></span>
+        {{student.pdtId}}
+      </li>
+      
+  </ul>       
+  
+</div>
+<div><app-footer></app-footer></div>
